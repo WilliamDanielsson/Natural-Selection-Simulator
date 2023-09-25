@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser-arcade-physics.min.js"></script> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="mainContainer">
+            <div id="startScreenDiv">
+                <img id="titel" src="./assets/Title.png"> </img>
+                <img id="configurationBackground" src="./assets/Canvas 1.png">
+                    <form id="simulationForm">
+                        <div>
+                            <label for="nrOfSpecies" class="simulationFormLabel">Number of Species:</label>
+                            <input type="number" id="nrOfSpecies" name="nrOfSpecies" required>
+                        </div>
+                        <br>
+                        
+                        <div>
+                            <label for="nrOfFoods" class="simulationFormLabel">Number of Foods:</label>
+                            <input type="number" id="nrOfFoods" name="nrOfFoods" required>
+                        </div>
+                        <br>
+                        
+                        <div>
+                            <label for="mutation" class="simulationFormLabel">Mutation Percentage:</label>
+                            <input type="number" id="mutationInput" name="mutationInput" required>
+                            <span class="span">%</span>
+                        </div>
+                        <br>
+
+                        <div>
+                            <label for="worldDimensions" class="simulationFormLabel">World Dimensions</label>
+                            <input type="number" id="worldWidth" name="worldWidth" required>
+                            <span class="span">-</span>
+                            <input type="number" id="worldHeight" name="worldHeight" required>
+                        </div>
+                        <br>
+
+                        <button type="submit" value="Save Configuration" id="submitButton"> 
+                            <img type="submit" src="./assets/SaveConfigurationButton.png" id="submitButtonImage"> </img>
+                        </button>
+                    </form>
+                </img>
+                <button id="startGameButton">
+                    <img id="startGameImage" src="./assets/StartGame.png"> </img>
+                </button> 
+            </div>
+
+            <button id="pauseButton">
+                <img id="pauseButtonImage" src="./assets/Paus.png"> </img>
+            </button>
+
+            <img id="generationNumberImage" src="./assets/Generation.png"> 
+                <p id='generationNumber'> </p>
+            </img>
+
+            <img id="scoreboardImage" src="./assets/ScoreboardShorterAndLonger.png">
+                <ul id='speciesScoreboard'></ul> 
+            </img>  
+
+            <button id="restartButton">
+                <img id="restartButtonImage" src="./assets/Restart.png"> </img>
+            </button>
+
+            <button id="exitButton">
+                <img id="exitButtonImage" src="./assets/Exit.png"> </img>
+            </button>
+
+            <script  type="module" src="StartScreen.js"> </script>
+        </div>
+    </body>
+</html>
+

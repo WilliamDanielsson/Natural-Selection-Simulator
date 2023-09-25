@@ -1,0 +1,263 @@
+#mainContainer {
+    /* Empty for the time being */
+}
+
+#titel {
+    margin-top: 0vh;
+    width: 550px;
+    height: 350px;
+}
+
+#startScreenDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+#startGameButton {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 12vh;
+    width: 227.15px;
+    height: 85.8px;
+}
+
+#startGameButton:hover img {
+    /* Styles for when the button is hovered over */
+    filter: brightness(80%);
+  }
+  
+#startGameButton:active img {
+    /* Styles for when the button is clicked */
+    filter: brightness(60%);
+}
+
+#startGameImage {
+    width: 100%;
+    height: auto;
+}
+
+#submitButton {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    width: 205px;
+    height: 96.24px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+#submitButton:hover img {
+    /* Styles for when the button is hovered over */
+    filter: brightness(80%);
+  }
+  
+#submitButton:active img {
+    /* Styles for when the button is clicked */
+    filter: brightness(60%);
+}
+
+#submitButtonImage {
+    width: 100%;
+    height: auto; 
+}
+
+#configurationBackground {
+    z-index: 1;
+    width: 418px;
+    height: 354px;
+}
+
+#simulationForm {
+    margin-top: 14vh;
+    z-index: 2;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;  
+    position: absolute;
+}
+
+.simulationFormLabel {
+    color: white;
+}
+
+.span {
+    color: white;
+}
+
+#mutationInput {
+    width: 40px;
+    background-color: #5B3B11;
+    color: white;
+}
+
+#nrOfFoods {
+    width: 40px;
+    background-color: #5B3B11;
+    color: white;
+}
+
+#nrOfSpecies {
+    width: 40px;
+    background-color: #5B3B11;
+    color: white;
+}
+
+#worldWidth {
+    width: 50px;
+    background-color: #5B3B11;
+    color: white;
+}
+
+#worldHeight {
+    width: 50px;
+    background-color: #5B3B11;
+    color: white;
+}
+
+#speciesScoreboard {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    position: absolute;
+    width: 862px;
+    font-weight: bold;
+    font-size: 17px;
+    transform: rotate(-1.5deg);
+}
+
+#scoreboardImage {
+    position: absolute;
+    display: none; 
+    width: 862px;
+    height: 362px;
+}
+
+#generationNumber {
+    display: none;
+    color: #5B3B11;
+    font-family: Tahoma;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    top: 8px;
+    left: 325px;
+}
+
+#generationNumberImage {
+    display: none;  
+    width: 471px;
+    height: 82.5px;
+    margin-top: 15px;
+}
+
+#simulationBorder {
+    position: absolute;
+    display: none;
+    background-color: burlywood;
+    z-index: 0;
+}
+
+#pauseButton {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    z-index: 3;
+    top: 140px;
+}
+
+#pauseButton:hover img {
+    /* Styles for when the button is hovered over */
+    filter: brightness(80%);
+  }
+  
+#pauseButton:active img {
+    /* Styles for when the button is clicked */
+    filter: brightness(60%);
+}
+
+
+#pauseButtonImage {
+    position: absolute;
+    display: none;
+    z-index: 3;
+    width: 34.33px;
+    height: 48px;
+}
+
+#restartButton {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    z-index: 3;
+}
+
+#restartButton:hover img {
+    /* Styles for when the button is hovered over */
+    filter: brightness(80%);
+  }
+  
+#restartButton:active img {
+    /* Styles for when the button is clicked */
+    filter: brightness(60%);
+}
+
+#restartButtonImage {
+    position: absolute;
+    display: none;
+    z-index: 3;
+    width: 180px;
+    height: 66.33px;
+}
+
+#exitButton {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    z-index: 3;
+}
+
+#exitButton:hover img {
+    /* Styles for when the button is hovered over */
+    filter: brightness(80%);
+  }
+  
+#exitButton:active img {
+    /* Styles for when the button is clicked */
+    filter: brightness(60%);
+}
+
+#exitButtonImage {
+    position: absolute;
+    display: none;
+    z-index: 3;
+    width: 175px;
+    height: 73px;
+}
+
+body {
+    background-image: url('./assets/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
