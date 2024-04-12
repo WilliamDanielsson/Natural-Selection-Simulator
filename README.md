@@ -7,12 +7,13 @@ The application is a simulation of the semi-Machine Learning algorithm NEAT (Neu
 The simulation is played out by setting a field size, number of foods, number of species and a mutation percentage which determines how extreme the mutation of genes can be.
 
 Each species hold a value of 4 destinct attributes. 
+
     * Vision (the distance where they can see)
 
     * Stamina (how long they can go without food before they die)
 
     * Speed (the speed of the species)
-    
+
     * Size (the size of the species)
 
 Then the simulation starts with all species spawning at the edges of the arena. The goal of each species is to eat one of the foods that roam around. And if they do they go to the next round. 
@@ -26,6 +27,7 @@ While the ones that have worse stats go extinct. After a while one or two specie
 ## The code structure
 
 The code is written to be as dynamic as possible. Where it should be possible to add more attributes in the future such as: 
+
     * Species being able to eat each other if they are bigger
 
     * Chance to get diseases
