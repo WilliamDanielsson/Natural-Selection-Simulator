@@ -8,8 +8,11 @@ The simulation is played out by setting a field size, number of foods, number of
 
 Each species hold a value of 4 destinct attributes. 
     * Vision (the distance where they can see)
+
     * Stamina (how long they can go without food before they die)
+
     * Speed (the speed of the species)
+    
     * Size (the size of the species)
 
 Then the simulation starts with all species spawning at the edges of the arena. The goal of each species is to eat one of the foods that roam around. And if they do they go to the next round. 
@@ -24,11 +27,17 @@ While the ones that have worse stats go extinct. After a while one or two specie
 
 The code is written to be as dynamic as possible. Where it should be possible to add more attributes in the future such as: 
     * Species being able to eat each other if they are bigger
+
     * Chance to get diseases
+
     * Chance to be immmune to certain diseases
+
     * Chance for new species to spawn randomly to change up the ecosystem
+
     * Different biomes where some species will perform better in than others.
+
     * Catastrofic events such as earthquakes or tsunamis that can wipe out entire populations
+
     ... and much more. The possibilites are endless
 
 ### The code quality
