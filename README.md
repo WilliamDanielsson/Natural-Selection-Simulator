@@ -47,6 +47,12 @@ The application is made as a hobby project and thus isnt using best practices. A
 The application is heavily commented where each major function is explained in detail. 
 
 ## How to Start
+
+Clone the GIT repository
+
+```bash
+    git clone https://github.com/WilliamDanielsson/Natural-Selection-Simulator.git
+```
 cd into Natural-Selection-Simulator
 
 ```bash
